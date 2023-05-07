@@ -36,3 +36,139 @@
     transform: rotate(360deg);
   }
 }
+
+.BodyMainDIv{
+  display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin: 2rem 4rem;
+
+}
+.BodyMainCardDiv {
+  min-width: 160px;
+  background: linear-gradient(to right, #c33764, #1d2671);
+  border: 2px solid white;
+  border-radius: 20px;
+  height: 14rem;
+  transition: height 1s;
+}
+.BodyMainCardDiv:hover {
+  background: linear-gradient(to right, #e65c00, #f9d423);
+  height: 15rem;
+
+}
+
+.btnDiv{
+  display: flex;
+    justify-content: center;
+    position: relative;
+    height: 20px;
+}
+.BodyMainCardDiv:hover .knowMoreBtn {
+
+  display: block;
+
+}
+
+.BodyMainCardDiv:hover .btnDiv{
+  height: 35px;
+}
+.knowMoreBtn{
+  display: none;
+  background: linear-gradient(to right, #c33764, #1d2671);
+  padding: 7px;
+  border-radius: 20px;
+  color: white;
+  font-weight: bold;
+  border: 2px solid midnightblue;
+  position: absolute;
+  top: -18px;
+}
+
+.imgDiv{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.imgDiv img{
+  height: 11rem;
+}
+.cardText{
+  color: white;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: capitalize;
+    text-align: center;
+    margin-top: 0px;
+}
+.poke-img h2 {
+  color: black;
+  text-align: center;
+  text-transform: capitalize;
+  text-decoration: underline;
+}
+
+.poke-card {
+  /* background-color: #f7fafc; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.abilities {
+  margin-bottom: 10px;
+}
+
+.abilities span {
+  background-color: violet;
+  padding: 5px;
+  margin: 5px;
+  border-radius: 5px;
+}
+
+.types span {
+  background-color: rgb(128, 139, 236);
+  padding: 5px;
+  margin: 5px;
+  border-radius: 5px;
+}
+
+.moves{
+
+  padding: 10px 56px;
+
+}
+
+.moves span {
+  background-color: rgb(236, 154, 181);
+  display: inline-flex;
+  padding: 5px;
+  margin: 5px;
+  border-radius: 5px;
+}
+
+.button {
+  background-color: blue;
+  color: white;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.poke-img{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+}
+.backBtn{  
+  padding: 8px 20px;
+  background-color: brown;
+  font-size: 15px;
+}
+.headerField{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
